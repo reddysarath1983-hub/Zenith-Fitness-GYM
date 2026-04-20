@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZENITH FITNESS | Train Hard. Transform Strong.</title>
+    <meta name="description" content="Premium fitness brand. Experience luxury performance training with Zenith Fitness.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header>
+        <div class="logo">ZENITH</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact" class="btn-outline">Contact Us</a>
+        </nav>
+        <div class="mobile-menu-btn">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-content fade-in-up">
+            <h1 class="glitch-text" data-text="ZENITH FITNESS">ZENITH FITNESS</h1>
+            <p class="subtitle">Train Hard. Transform Strong.</p>
+            <div class="cta-group">
+                <a href="#join" class="btn btn-primary glow-btn">Join Now</a>
+                <a href="#services" class="btn btn-secondary">View Programs</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container split-layout">
+            <div class="about-image-wrapper reveal-left">
+                <img src="assets/about_athlete.png" alt="Elite athlete training" class="about-image parallax">
+                <div class="glass-overlay-box">
+                    <h3>Elite Performance</h3>
+                    <p>Unlock your true potential.</p>
+                </div>
+            </div>
+            <div class="about-text reveal-right">
+                <h2 class="section-title">Beyond Ordinary <br><span class="highlight">Transformation</span></h2>
+                <p>Zenith Fitness isn't just a gym; it's a crucible for champions. We provide an unparalleled luxury performance environment designed for those who demand excellence.</p>
+                <p>Equipped with state-of-the-art machinery and world-class coaching, your journey to absolute strength starts here. Discipline meets design.</p>
+                <a href="#contact" class="btn btn-text">Discover More &#8594;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Our <span class="highlight">Expertise</span></h2>
+                <p>Premium programs tailored for elite results.</p>
+            </div>
+            <div class="service-cards">
+                <div class="card reveal-up" style="transition-delay: 0.1s">
+                    <div class="card-icon">&#9889;</div>
+                    <h3>Weight Training</h3>
+                    <p>Build raw power and sculpted muscle with our cutting-edge free weights and machines.</p>
+                </div>
+                <div class="card reveal-up" style="transition-delay: 0.2s">
+                    <div class="card-icon">&#9876;</div>
+                    <h3>CrossFit</h3>
+                    <p>High-intensity functional movements designed to push your limits.</p>
+                </div>
+                <div class="card reveal-up" style="transition-delay: 0.3s">
+                    <div class="card-icon">&#128170;</div>
+                    <h3>Personal Training</h3>
+                    <p>One-on-one coaching with industry-leading fitness experts.</p>
+                </div>
+                <div class="card reveal-up" style="transition-delay: 0.4s">
+                    <div class="card-icon">&#127939;</div>
+                    <h3>Aerobics</h3>
+                    <p>Dynamic cardio sessions for ultimate endurance and stamina.</p>
+                </div>
+                <div class="card reveal-up" style="transition-delay: 0.5s">
+                    <div class="card-icon">&#127822;</div>
+                    <h3>Nutrition Coaching</h3>
+                    <p>Bespoke meal planning to fuel your transformation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section-padding">
+        <div class="container">
+            <h2 class="section-title text-center reveal-up">The <span class="highlight">Sanctuary</span></h2>
+            <div class="masonry-grid">
+                <div class="gallery-item reveal-up">
+                    <img src="assets/gallery_gym.png" alt="Premium gym interior">
+                    <div class="gallery-overlay"><span>The Floor</span></div>
+                </div>
+                <div class="gallery-item reveal-up" style="transition-delay: 0.1s">
+                    <img src="assets/gallery_dumbbells.png" alt="Heavy dumbbells">
+                    <div class="gallery-overlay"><span>Iron Sanctuary</span></div>
+                </div>
+                <div class="gallery-item reveal-up" style="transition-delay: 0.2s">
+                    <img src="assets/gallery_deadlift.png" alt="Deadlift training">
+                    <div class="gallery-overlay"><span>Raw Power</span></div>
+                </div>
+                <div class="gallery-item reveal-up" style="transition-delay: 0.3s">
+                    <img src="assets/gallery_ropes.png" alt="Battle ropes">
+                    <div class="gallery-overlay"><span>Endurance</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h2 class="section-title">Wall of <span class="highlight">Glory</span></h2>
+                <div class="overall-rating">
+                    <span class="rating-number">4.7</span>
+                    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </div>
+            </div>
+            
+            <div class="slider-container reveal-up">
+                <div class="slider-wrapper" id="reviewSlider">
+                    <div class="slide">
+                        <div class="review-card glass-panel">
+                            <div class="google-review-header">
+                                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <p class="quote">"The gym is well-equipped and provides excellent training sessions, including group classes and counseling. The ambiance is very good and motivating."</p>
+                            <h4 class="author">- Rahul M. <span class="google-badge">Google</span></h4>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="review-card glass-panel">
+                            <div class="google-review-header">
+                                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <p class="quote">"Quality of the trainers is excellent. Very courteous and helpful staff. They are extremely helpful in achieving transformation goals like muscle building."</p>
+                            <h4 class="author">- Priya K. <span class="google-badge">Google</span></h4>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="review-card glass-panel">
+                            <div class="google-review-header">
+                                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <p class="quote">"Best gym in Vijayanagar! Great value for the price charged. The certified trainers really know what they are doing and push you to your limits."</p>
+                            <h4 class="author">- Santhosh G. <span class="google-badge">Google</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button id="prevBtn" class="nav-btn">&#10094;</button>
+                    <button id="nextBtn" class="nav-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section id="instagram" class="instagram section-padding">
+        <div class="container text-center">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Follow Our <span class="highlight">Journey</span></h2>
+                <p>Join our community on Instagram <a href="https://instagram.com/zenithfitnessmysuru" target="_blank" class="highlight" style="text-decoration: none;">@zenithfitnessmysuru</a></p>
+            </div>
+            
+            <div class="insta-grid reveal-up">
+                <a href="https://instagram.com/zenithfitnessmysuru" target="_blank" class="insta-item">
+                    <img src="assets/gallery_gym.png" alt="Instagram Post 1">
+                    <div class="insta-overlay"><span class="icon">&#9829;</span></div>
+                </a>
+                <a href="https://instagram.com/zenithfitnessmysuru" target="_blank" class="insta-item">
+                    <img src="assets/gallery_dumbbells.png" alt="Instagram Post 2">
+                    <div class="insta-overlay"><span class="icon">&#9829;</span></div>
+                </a>
+                <a href="https://instagram.com/zenithfitnessmysuru" target="_blank" class="insta-item">
+                    <img src="assets/gallery_deadlift.png" alt="Instagram Post 3">
+                    <div class="insta-overlay"><span class="icon">&#9829;</span></div>
+                </a>
+                <a href="https://instagram.com/zenithfitnessmysuru" target="_blank" class="insta-item">
+                    <img src="assets/gallery_ropes.png" alt="Instagram Post 4">
+                    <div class="insta-overlay"><span class="icon">&#9829;</span></div>
+                </a>
+            </div>
+            
+            <div class="mt-4 reveal-up">
+                <a href="https://instagram.com/zenithfitnessmysuru" target="_blank" class="btn btn-outline glow-on-hover">View Full Instagram Page</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container split-layout">
+            <div class="contact-info reveal-left">
+                <h2 class="section-title">Join The <span class="highlight">Elite</span></h2>
+                <p>Ready to transform? Step into Zenith.</p>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <span class="icon">&#128197;</span>
+                        <div>
+                            <h4>Gym Timings</h4>
+                            <p>Mon - Sat: 5:00 AM - 11:00 PM<br>Sun: 6:00 AM - 8:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <span class="icon">&#128205;</span>
+                        <div>
+                            <h4>Location</h4>
+                            <p>#4576, Surya Complex,<br>R K Corner Circle, Vijay Nagar 2nd Stage,<br>Mysuru, Karnataka 570017</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-buttons">
+                    <a href="tel:+919986888633" class="btn btn-outline glow-on-hover">&#128222; Call Us</a>
+                    <a href="https://wa.me/919986888633" class="btn btn-primary glow-btn" target="_blank">&#128241; WhatsApp</a>
+                </div>
+            </div>
+            
+            <div class="contact-map reveal-right glass-panel">
+                <!-- Embedded Map Placeholder styled for dark mode -->
+                <iframe src="https://maps.google.com/maps?q=Zenith%20Fitness%20Mysuru&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; filter: invert(90%) hue-rotate(180deg);" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">ZENITH</div>
+                <p>&copy; 2026 Zenith Fitness. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/zenithfitnessmysuru" target="_blank">IG</a>
+                    <a href="#">X</a>
+                    <a href="#">FB</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
